@@ -6,30 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BE97F7D92D6B709900215DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE97F7D02D6B709900215DA2 /* Assets.xcassets */; };
+		BE97F7DB2D6B709900215DA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE97F7D32D6B709900215DA2 /* LaunchScreen.storyboard */; };
+		BE97F7DC2D6B709900215DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE97F7D52D6B709900215DA2 /* Main.storyboard */; };
+		BE97F7DD2D6B709900215DA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE97F7CF2D6B709900215DA2 /* AppDelegate.swift */; };
+		BE97F7DE2D6B709900215DA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE97F7D62D6B709900215DA2 /* SceneDelegate.swift */; };
+		BE97F7DF2D6B709900215DA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE97F7D72D6B709900215DA2 /* ViewController.swift */; };
+		BE97F7E12D6B70BB00215DA2 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BE97F7E02D6B70BB00215DA2 /* MobileNetV2.mlmodel */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BE97F7B72D6B709200215DA2 /* ImageRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE97F7CF2D6B709900215DA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE97F7D02D6B709900215DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE97F7D12D6B709900215DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE97F7D22D6B709900215DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE97F7D42D6B709900215DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE97F7D62D6B709900215DA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE97F7D72D6B709900215DA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE97F7E02D6B70BB00215DA2 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BE97F7C92D6B709300215DA2 /* Exceptions for "ImageRecognition" folder in "ImageRecognition" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = BE97F7B62D6B709200215DA2 /* ImageRecognition */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BE97F7B92D6B709200215DA2 /* ImageRecognition */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BE97F7C92D6B709300215DA2 /* Exceptions for "ImageRecognition" folder in "ImageRecognition" target */,
-			);
-			path = ImageRecognition;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BE97F7B42D6B709200215DA2 /* Frameworks */ = {
@@ -45,7 +42,7 @@
 		BE97F7AE2D6B709100215DA2 = {
 			isa = PBXGroup;
 			children = (
-				BE97F7B92D6B709200215DA2 /* ImageRecognition */,
+				BE97F7D82D6B709900215DA2 /* ImageRecognition */,
 				BE97F7B82D6B709200215DA2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +53,21 @@
 				BE97F7B72D6B709200215DA2 /* ImageRecognition.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BE97F7D82D6B709900215DA2 /* ImageRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				BE97F7CF2D6B709900215DA2 /* AppDelegate.swift */,
+				BE97F7D02D6B709900215DA2 /* Assets.xcassets */,
+				BE97F7D12D6B709900215DA2 /* Info.plist */,
+				BE97F7E02D6B70BB00215DA2 /* MobileNetV2.mlmodel */,
+				BE97F7D32D6B709900215DA2 /* LaunchScreen.storyboard */,
+				BE97F7D52D6B709900215DA2 /* Main.storyboard */,
+				BE97F7D62D6B709900215DA2 /* SceneDelegate.swift */,
+				BE97F7D72D6B709900215DA2 /* ViewController.swift */,
+			);
+			path = ImageRecognition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +84,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BE97F7B92D6B709200215DA2 /* ImageRecognition */,
 			);
 			name = ImageRecognition;
 			packageProductDependencies = (
@@ -122,6 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE97F7D92D6B709900215DA2 /* Assets.xcassets in Resources */,
+				BE97F7DB2D6B709900215DA2 /* LaunchScreen.storyboard in Resources */,
+				BE97F7DC2D6B709900215DA2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +144,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE97F7DD2D6B709900215DA2 /* AppDelegate.swift in Sources */,
+				BE97F7DE2D6B709900215DA2 /* SceneDelegate.swift in Sources */,
+				BE97F7E12D6B70BB00215DA2 /* MobileNetV2.mlmodel in Sources */,
+				BE97F7DF2D6B709900215DA2 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE97F7D32D6B709900215DA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE97F7D22D6B709900215DA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BE97F7D52D6B709900215DA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE97F7D42D6B709900215DA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BE97F7CB2D6B709300215DA2 /* Debug */ = {
